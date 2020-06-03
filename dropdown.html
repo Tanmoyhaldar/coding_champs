@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Navigation Bar</title>
+        <style>
+            body 
+              {
+                background-image:url("https://c1.wallpaperflare.com/preview/989/372/942/cold-daylight-glacier-gurudongmar-lake.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                color: #ffebcd;
+                margin: 0;
+                padding: 0;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 20px;
+                opacity: 0.8;
+              }
+            ul
+              {
+                  list-style: none;
+              }
+            ul li
+               {
+                   float:left;
+                   width:240px;
+                   height:65px;
+                   background-color: black;
+                   text-align: center;
+                   opacity: 0.6;
+               }
+            ul li p:hover
+              {
+                     background-color: chocolate;
+              }
+            ul li ul li {
+                visibility: hidden;
+            }
+            ul li:hover ul li {
+                visibility: visible;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li><p>ABOUT ME</p>
+                <ul>
+                    <li><p>Personal Details</p></li>
+                    <li><p>Introduction</p></li>
+                </ul>
+            </li>
+              
+            <li><p>MY DREAM</p>
+               <ul>
+                <li><p>At the age of 6</p></li>
+                <li><p>At the age of 12</p></li>
+                <li><p>At the age of 18</p></li>
+                <li><p>At the age of 24</p></li>
+               </ul>
+            </li>
+            <li><p>MY FAMILY</p></li>
+            <li><p>MY SCHOOL</p></li>
+            <li><p>ACTIVITIES</p></li>
+            <li><p>AWARDS WON</p></li>
+        </ul>
+    </body>
+</html>
